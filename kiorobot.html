@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>다인아이앤씨 키오스크 전국 최저가 이벤트 | 월 39,600원부터 · 도입비 0원</title>
+<meta content="무인매장 키오스크 카드전용 월 39,600원, 현금겸용 월 62,700원(36개월 할부, VAT 포함). 설치비·배송비·프로그램비·출장비 0원. 알리페이·위챗페이 결제 지원. 중고 키오스크 6개월 보증." name="description"/>
+<meta content="#ffffff" name="theme-color"/>
+<meta content="website" property="og:type"/>
+<meta content="무인매장 키오스크 월 39,600원부터 · 도입비 0원" property="og:title"/>
+<meta content="카드전용 월 39,600원 / 현금겸용 월 62,700원 (36개월, VAT 포함). 설치비·배송비·프로그램비·출장비 0원. 알리페이·위챗페이 결제 지원." property="og:description"/>
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet"/>
+<style>
+:root{
+  --ink:#191f28; --sub:#4e5968; --gray:#8b95a1; --line:#e5e8eb;
+  --bg-gray:#f2f4f6; --bg-tint:#e9f3ec;
+  --green:#00964f; --green-d:#00753d; --red:#e5341b; --orange:#ff5b2e;
+  --ali:#1677ff; --wechat:#07c160;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:#fff;color:var(--ink);word-break:keep-all;overflow-wrap:break-word;
+  font-family:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+  -webkit-font-smoothing:antialiased;padding-bottom:76px}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+:focus-visible{outline:3px solid var(--green);outline-offset:2px}
+
+/* header */
+.hd{position:sticky;top:0;z-index:30;background:#fff;border-bottom:1px solid var(--line)}
+.hd-in{max-width:1200px;margin:0 auto;height:58px;padding:0 18px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:19px;font-weight:900;letter-spacing:-.02em}
+.logo b{color:var(--green)}
+.logo small{margin-left:6px;font-size:12px;font-weight:600;color:var(--gray);letter-spacing:0}
+.hd-btn{height:36px;padding:0 16px;display:inline-flex;align-items:center;border:1.5px solid var(--green);border-radius:999px;color:var(--green);font-size:13.5px;font-weight:700}
+
+/* detail column */
+.detail{max-width:860px;margin:0 auto;overflow:hidden}
+.blk{padding:64px 22px;text-align:center}
+.blk.gray{background:var(--bg-gray)}
+.blk.tint{background:var(--bg-tint)}
+.pre{font-size:17px;font-weight:700;color:var(--gray)}
+.h{margin-top:10px;font-size:31px;line-height:1.32;font-weight:800;letter-spacing:-.035em}
+.h em{font-style:normal;color:var(--green)}
+.desc{margin-top:16px;font-size:16.5px;line-height:1.6;font-weight:600;color:var(--sub)}
+.badge{display:inline-block;margin-bottom:18px;padding:9px 20px;border-radius:999px;background:var(--ink);color:#fff;font-size:15px;font-weight:700}
+.badge.g{background:var(--green)}
+.small-note{margin-top:18px;font-size:13px;line-height:1.6;color:var(--gray)}
+
+/* hero */
+.hero{padding:56px 22px 8px;background:var(--bg-tint);text-align:center}
+.hero .h{font-size:34px}
+.hero .price-big{margin-top:6px;font-size:34px;font-weight:800;letter-spacing:-.035em;color:var(--green)}
+.free{margin:28px auto 0;max-width:520px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.free div{padding:16px 8px;border-radius:14px;background:#fff;box-shadow:0 4px 14px rgba(0,60,30,.08);font-size:16px;font-weight:700}
+.free div span{color:var(--green)}
+.hero-pic{margin:34px auto 0;max-width:560px;display:flex;align-items:flex-end;justify-content:center;gap:18px}
+.hero-pic img{filter:drop-shadow(0 18px 20px rgba(0,40,20,.18))}
+.hero-pic .p-card{width:34%;max-width:170px}
+.hero-pic .p-cash{width:50%;max-width:250px;margin-bottom:6px}
+.hero-cta{display:none;background:#fff;padding:26px 22px 34px;text-align:center}
+.btn{display:flex;align-items:center;justify-content:center;max-width:420px;margin:0 auto;height:58px;border-radius:14px;font-size:17px;font-weight:800}
+.btn.green{background:var(--green);color:#fff}
+.btn.line{margin-top:10px;border:1.5px solid var(--line);color:var(--ink);font-weight:700}
+.btn.line b{margin-left:8px;font-weight:800}
+
+/* price cards */
+.models{margin:34px auto 0;max-width:720px;display:grid;gap:14px}
+.mcard{background:#fff;border-radius:20px;padding:26px 22px 24px;box-shadow:0 6px 22px rgba(0,30,15,.07);text-align:center}
+.mcard .pic{height:200px;display:flex;align-items:flex-end;justify-content:center}
+.mcard .pic img{max-height:100%;width:auto}
+.mcard.cash .pic img{max-height:86%}
+.mcard h3{margin-top:18px;font-size:22px;font-weight:800;letter-spacing:-.03em}
+.mcard .for{margin-top:4px;font-size:14.5px;font-weight:600;color:var(--gray)}
+.mcard .mo{margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
+.mcard .mo span{display:block;font-size:14px;font-weight:700;color:var(--sub)}
+.mcard .mo strong{display:block;margin-top:2px;font-size:36px;font-weight:800;letter-spacing:-.04em;color:var(--orange)}
+.mcard .mo strong i{font-style:normal;font-size:18px;color:var(--ink);margin-left:2px}
+.mcard .ls{margin-top:12px;display:flex;justify-content:center;gap:8px;font-size:15px;font-weight:700;color:var(--sub)}
+.mcard .ls b{color:var(--ink)}
+.mcard ul{margin-top:18px;list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:6px}
+.mcard li{padding:7px 12px;border-radius:8px;background:var(--bg-gray);font-size:13.5px;font-weight:600;color:var(--sub)}
+
+/* table */
+.tbl{margin:30px auto 0;max-width:720px;width:100%;border-collapse:collapse;background:#fff;border-radius:16px;overflow:hidden;font-size:15px}
+.tbl th,.tbl td{padding:15px 6px;border-bottom:1px solid var(--line)}
+.tbl{font-size:14px}
+.tbl tbody th{padding-left:14px}
+.tbl tr:last-child td{border-bottom:0}
+.tbl thead th{background:var(--ink);color:#fff;font-weight:700}
+.tbl tbody th{text-align:left;padding-left:18px;font-weight:600;color:var(--sub);white-space:nowrap}
+.tbl td{font-weight:700}
+.tbl td.o{color:var(--orange);font-size:17px;font-weight:800}
+.tbl td.s{color:var(--green)}
+
+/* stand */
+.stand{margin:14px auto 0;max-width:720px;background:#fff;border-radius:20px;padding:26px 22px;display:grid;gap:18px;justify-items:center;box-shadow:0 6px 22px rgba(0,30,15,.07)}
+.stand img{width:108px}
+.stand h3{font-size:20px;font-weight:800}
+.stand p{margin-top:8px;font-size:15px;line-height:1.6;font-weight:500;color:var(--sub)}
+.stand .plus{margin-top:12px;font-size:28px;font-weight:800;color:var(--orange);letter-spacing:-.03em}
+.stand .plus i{font-style:normal;font-size:16px;color:var(--ink)}
+
+/* receipt */
+.receipt{position:relative;margin:34px auto 0;max-width:560px;padding:26px 22px 20px;background:#fff;border-radius:14px;text-align:left;
+  box-shadow:0 8px 26px rgba(0,30,15,.09);
+  -webkit-mask:radial-gradient(circle 7px at 7px 100%,transparent 97%,#000) -7px 0/16px 100% repeat-x,linear-gradient(#000,#000) 0 0/100% calc(100% - 7px) no-repeat;
+  mask:radial-gradient(circle 7px at 7px 100%,transparent 97%,#000) -7px 0/16px 100% repeat-x,linear-gradient(#000,#000) 0 0/100% calc(100% - 7px) no-repeat}
+.r-head{text-align:center;padding-bottom:14px;border-bottom:2px dashed var(--line)}
+.r-head .r-brand{font-weight:800;letter-spacing:.2em;font-size:12px;color:var(--green)}
+.r-head h3{margin-top:6px;font-size:20px;font-weight:800}
+.r-head .r-date{margin-top:4px;font-size:12px;color:var(--gray)}
+.r-body{padding:12px 0 6px}
+.r-line{display:flex;align-items:baseline;gap:9px;padding:9px 0;font-size:15.5px;font-weight:600}
+.r-line .dots{flex:1;border-bottom:2px dotted #d1d6db;transform:translateY(-4px)}
+.r-line .price{font-weight:800;color:var(--green);white-space:nowrap}
+.r-line .rt{font-size:11px;font-weight:700;color:var(--red);background:#fff0ec;border-radius:6px;padding:2px 6px;white-space:nowrap}
+.r-sub{margin:-4px 0 4px;font-size:12.5px;font-weight:700;line-height:1.5;color:var(--red)}
+.r-total{margin-top:8px;padding-top:14px;border-top:2px dashed var(--line);display:flex;justify-content:space-between;align-items:center}
+.r-total .tl{font-weight:800;font-size:15.5px}
+.r-total .tl small{display:block;font-weight:600;font-size:12px;color:var(--gray)}
+.r-total .tp{font-size:38px;font-weight:800;color:var(--orange);letter-spacing:-.03em}
+.stamp{position:absolute;top:16px;right:14px;transform:rotate(10deg);border:2.5px solid var(--orange);color:var(--orange);border-radius:10px;padding:5px 9px;font-weight:800;font-size:12px;line-height:1.25;text-align:center}
+
+/* global pay */
+.h .ali{color:var(--ali)}
+.h .wc{color:var(--wechat)}
+.paybox{margin:34px auto 0;max-width:460px;background:#fff;border-radius:22px;padding:22px 18px 18px;box-shadow:0 10px 30px rgba(0,20,40,.1);text-align:left}
+.paybox .t{text-align:center;font-size:14px;font-weight:700;color:var(--gray);margin-bottom:14px}
+.pm{display:flex;align-items:center;gap:14px;padding:15px 16px;border:1px solid var(--line);border-radius:14px}
+.pm+.pm{margin-top:9px}
+.pm i{flex:0 0 44px;height:44px;display:grid;place-items:center;border-radius:11px;color:#fff;font-style:normal;font-weight:800;font-size:19px}
+.pm b{font-size:17px;font-weight:800}
+.pm small{display:block;margin-top:1px;font-size:12.5px;font-weight:600;color:var(--gray)}
+.two{margin:16px auto 0;max-width:620px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.two div{padding:22px 14px;background:#fff;border-radius:16px;box-shadow:0 4px 14px rgba(0,30,15,.06)}
+.two b{display:block;font-size:17px;font-weight:800;line-height:1.4}
+.two span{display:block;margin-top:6px;font-size:13.5px;line-height:1.5;font-weight:600;color:var(--sub)}
+
+/* terminals */
+.terms{margin:36px auto 0;display:flex;align-items:flex-end;justify-content:center;gap:22px}
+.terms figure{display:flex;flex-direction:column;align-items:center}
+.terms img{filter:drop-shadow(0 14px 16px rgba(0,0,0,.14))}
+.terms .t1 img{width:170px}
+.terms .t2 img{width:112px}
+.terms figcaption{margin-top:14px;font-size:16px;font-weight:700}
+.terms .pl{align-self:center;margin-bottom:34px;font-size:30px;font-weight:300;color:var(--gray)}
+
+/* chips (stores) */
+.stores{margin:30px auto 0;max-width:620px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.stores div{padding:16px 10px;background:#fff;border-radius:14px;box-shadow:0 4px 14px rgba(0,30,15,.06);font-size:16px;font-weight:700}
+
+/* used */
+.uses{margin:30px auto 0;max-width:620px;display:grid;gap:10px;text-align:left}
+.uses div{display:flex;gap:16px;align-items:center;padding:20px 20px;background:#fff;border-radius:16px;box-shadow:0 4px 14px rgba(0,30,15,.06)}
+.uses .n{flex:0 0 54px;height:54px;display:grid;place-items:center;border-radius:50%;background:var(--bg-tint);color:var(--green);font-size:14px;font-weight:800}
+.uses b{display:block;font-size:17px;font-weight:800}
+.uses span{display:block;margin-top:3px;font-size:14px;font-weight:500;color:var(--sub);line-height:1.5}
+
+/* steps */
+.steps{margin:30px auto 0;max-width:560px;text-align:left}
+.step{position:relative;display:flex;gap:16px;padding-bottom:26px}
+.step:last-child{padding-bottom:0}
+.step:not(:last-child)::before{content:"";position:absolute;left:19px;top:42px;bottom:4px;width:2px;background:var(--line)}
+.step .no{flex:0 0 40px;height:40px;display:grid;place-items:center;border-radius:50%;background:var(--green);color:#fff;font-weight:800;font-size:15px}
+.step b{display:block;padding-top:8px;font-size:17px;font-weight:800}
+.step p{margin-top:5px;font-size:14.5px;line-height:1.55;font-weight:500;color:var(--sub)}
+
+/* final */
+.final{padding:64px 22px 56px;text-align:center;background:var(--green);color:#fff}
+.final .h{color:#fff}
+.final .desc{color:rgba(255,255,255,.88)}
+.final-btns{margin:30px auto 0;max-width:460px;display:grid;gap:12px}
+.final-btns a{height:66px;display:flex;align-items:center;justify-content:center;gap:12px;border-radius:999px;background:#fff;color:var(--ink);font-size:19px;font-weight:800}
+.final-btns a.chat{background:var(--ink);color:#fff}
+.final-btns a i{font-style:normal;width:1px;height:18px;background:#c5cbd1}
+.biz{max-width:860px;margin:0 auto;padding:28px 22px 34px;text-align:center;font-size:12.5px;line-height:1.85;color:var(--gray)}
+.biz b{color:var(--sub)}
+
+/* bottom bar */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1.4fr 1fr;gap:8px;
+  padding:9px 12px calc(9px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line)}
+.bar a{height:52px;display:flex;align-items:center;justify-content:center;border-radius:12px;font-size:16px;font-weight:800}
+.bar .b1{background:var(--green);color:#fff}
+.bar .b2{background:var(--bg-gray)}
+
+@media(max-width:360px){
+  .h,.hero .h,.hero .price-big{font-size:27px}
+  .free div{font-size:15px}
+}
+@media(min-width:768px){
+  body{padding-bottom:0}
+  .bar{display:none}
+  .hero-cta{display:block}
+  .hd-in{height:70px;padding:0 32px}
+  .logo{font-size:22px}
+  .blk{padding:96px 48px}
+  .hero{padding:84px 48px 0}
+  .pre{font-size:21px}
+  .h{font-size:44px}
+  .hero .h,.hero .price-big{font-size:50px}
+  .desc{font-size:19px}
+  .badge{font-size:17px;padding:10px 24px}
+  .free{grid-template-columns:repeat(4,1fr);max-width:720px}
+  .models{grid-template-columns:1fr 1fr}
+  .mcard .pic{height:240px}
+  .tbl{font-size:16px}
+  .tbl th,.tbl td{padding:18px 12px}
+  .stand img{width:120px}
+  .stand{grid-template-columns:150px 1fr;justify-items:start;text-align:left;padding:28px 34px}
+  .two div{padding:28px 18px}
+  .two b{font-size:19px}
+  .terms{gap:34px}
+  .terms .t1 img{width:240px}
+  .terms .t2 img{width:156px}
+  .stores{grid-template-columns:repeat(5,1fr);max-width:780px}
+  .stores div{font-size:15px;padding:16px 6px}
+  .uses{grid-template-columns:1fr;}
+  .final{padding:96px 48px 84px}
+}
+</style>
+<style>.savings-visual{margin:32px auto 0;max-width:720px}.savings-visual img{display:block;width:100%;height:auto;border-radius:20px}.savings-visual figcaption{margin:14px 0 22px;font-size:12px;line-height:1.8;color:var(--sub);text-align:center;font-weight:500}.savings-visual figcaption strong{font-weight:600}@media(max-width:600px){.savings-visual{margin-top:26px}.savings-visual img{border-radius:14px}.savings-visual figcaption{font-size:10px;margin:12px 0 18px;line-height:1.9}}</style><style>.coffee-copy{margin:24px auto 0;max-width:740px}.coffee-copy h2{font-size:34px;line-height:1.45;font-weight:800;letter-spacing:-.045em;color:var(--ink)}.coffee-copy em{display:inline-block;font-style:normal;font-size:47px;line-height:1.4;color:var(--green);letter-spacing:-.045em}.coffee-copy p{margin-top:14px;font-size:12px;color:var(--sub);line-height:1.7;font-weight:500}@media(max-width:600px){.coffee-copy{margin-top:22px}.coffee-copy h2{font-size:23px;line-height:1.5}.coffee-copy em{font-size:34px;line-height:1.5}.coffee-copy p{font-size:10px;margin-top:12px}}</style><style>.hero .event-headline{margin:0 auto;color:#e5341b;font-size:42px;line-height:1.3;font-weight:900;letter-spacing:-.045em;max-width:760px}.hero .event-headline span{display:block}.hero .coffee-copy{margin-top:28px}@media(min-width:768px){.hero .event-headline{font-size:52px}}@media(max-width:600px){.hero .event-headline{font-size:34px;line-height:1.35}.hero .coffee-copy{margin-top:24px}}@media(max-width:360px){.hero .event-headline{font-size:30px}}</style><style>.hero{padding-top:58px}.price-focus{margin:0 auto;max-width:800px}.primary-price{display:flex;align-items:baseline;justify-content:center;gap:10px;white-space:nowrap;color:var(--green);line-height:1.08;letter-spacing:-.04em}.primary-price strong{font-size:116px;letter-spacing:-7px;font-weight:900}.daily-label{font-size:32px;font-weight:800}.daily-unit{font-size:34px;font-weight:800}.price-benefit{margin-top:22px;font-size:25px;font-weight:700;line-height:1.5;letter-spacing:-.035em;color:var(--ink)}.event-support{display:inline-block;margin-top:22px;padding:7px 13px;border:1px solid #f2b2a7;border-radius:5px;font-size:16px;font-weight:600;line-height:1.5;color:#df321b;background:#fff5f1}.event-support b{font-weight:800}.price-terms{margin-top:14px;color:var(--sub);font-size:11px;line-height:1.7;font-weight:500}@media(max-width:767px){.hero{padding-top:42px}.primary-price{gap:7px}.primary-price strong{font-size:clamp(66px,20vw,100px);letter-spacing:-4px}.daily-label{font-size:21px}.daily-unit{font-size:22px}.price-benefit{margin-top:18px;font-size:20px;line-height:1.5}.event-support{font-size:13px;margin-top:20px;padding:6px 10px}.price-terms{font-size:10px;margin-top:12px}}@media(max-width:360px){.primary-price{gap:5px}.daily-label{font-size:18px}.daily-unit{font-size:20px}.event-support{font-size:12px}.price-benefit{font-size:18px}}</style><style>.price-benefit{white-space:nowrap;font-size:clamp(12px,3.4vw,25px);letter-spacing:-.045em}@media(max-width:360px){.price-benefit{font-size:clamp(11px,3.4vw,13px)}}</style></head>
+<body>
+<header class="hd"><div class="hd-in">
+<a class="logo" href="#top">KIO<b>ROBOT</b><small>다인아이앤씨</small></a>
+<a class="hd-btn" href="https://daininc.channel.io/home">채팅 상담</a>
+</div></header>
+<main class="detail" id="top">
+<!-- 1. 히어로 -->
+<section class="hero"><div class="price-focus"><h1 class="primary-price"><span class="daily-label">하루</span><strong>1,320</strong><span class="daily-unit">원부터</span></h1><p class="price-benefit">저가커피 한 잔보다 저렴하게, 키오스크를 사용하세요.</p><p class="event-support">다인아이앤씨 <b>전국 최저가 이벤트</b></p><p class="price-terms">카드전용 모델 · 월 39,600원 ÷ 30일 환산 기준</p></div>
+<div class="free">
+<div>설치비 <span>0원</span></div>
+<div>배송비 <span>0원</span></div>
+<div>프로그램비 <span>0원</span></div>
+<div>출장비 <span>0원</span></div>
+</div>
+<figure class="savings-visual"><img alt="하루로 나누면 카드전용 1,320원, 현금겸용 2,090원 — 각각 월 39,600원과 62,700원을 30일로 환산" height="941" src="assets/image-f12611aeb8251bf7.webp" width="1672"/><figcaption>카드전용 월 39,600원 · 현금겸용 월 62,700원<br/>하루 금액은 각 월 할부금을 30일로 나눈 환산 금액입니다.<br/><strong>36개월 할부 · 부가세 포함 · 실제 납부는 월 단위입니다.</strong></figcaption></figure>
+</section>
+<div class="hero-cta">
+<a class="btn green" href="https://daininc.channel.io/home">채팅으로 견적 받기</a>
+<a class="btn line" href="tel:15995076">전화 문의<b>1599-5076</b></a>
+<a class="btn line" href="tel:01086948910">영업 직통<b>010-8694-8910</b></a></div>
+<!-- 2. 가격 -->
+<section class="blk gray" id="price">
+<span class="badge">가격 안내</span>
+<h2 class="h">카드만 받을지,<br/>현금까지 받을지만<br/>정하시면 됩니다</h2>
+<p class="desc">두 모델 모두 21.5형 화면입니다.</p>
+<div class="models">
+<article class="mcard">
+<div class="pic"><img alt="21.5형 카드전용 키오스크" src="assets/image-3c59c14cb1443557.webp"/></div>
+<h3>카드전용</h3>
+<p class="for">현금을 받지 않는 매장</p>
+<div class="mo"><span>36개월 할부 (월)</span><strong>39,600<i>원</i></strong></div>
+<p class="ls">일시불 <b>1,320,000원</b></p>
+<ul><li>카드 결제</li><li>알리·위챗페이</li><li>바코드 스캐너</li><li>영수증 프린터</li></ul>
+</article>
+<article class="mcard cash">
+<div class="pic"><img alt="21.5형 현금겸용 키오스크" src="assets/image-496a6e02324212a3.webp"/></div>
+<h3>현금겸용</h3>
+<p class="for">현금 손님이 있는 매장</p>
+<div class="mo"><span>36개월 할부 (월)</span><strong>62,700<i>원</i></strong></div>
+<p class="ls">일시불 <b>2,150,000원</b></p>
+<ul><li>지폐·동전 투입/반환</li><li>알리·위챗페이</li><li>바코드 스캐너</li><li>영수증 프린터</li></ul>
+</article>
+</div>
+<table class="tbl">
+<thead><tr><th></th><th>카드전용</th><th>현금겸용</th></tr></thead>
+<tbody>
+<tr><th>월 할부금</th><td class="o">39,600원</td><td class="o">62,700원</td></tr>
+<tr><th>36개월 합계</th><td>1,425,600원</td><td>2,257,200원</td></tr>
+<tr><th>일시불</th><td>1,320,000원</td><td>2,150,000원</td></tr>
+<tr><th>일시불 선택 시</th><td class="s">105,600원 절약</td><td class="s">107,200원 절약</td></tr>
+</tbody>
+</table>
+<div class="stand">
+<img alt="스탠드를 적용한 카드전용 키오스크" src="assets/image-793d1e15cb45c349.webp"/>
+<div>
+<h3>스탠드 옵션</h3>
+<p>카운터에 올릴 자리가 없으면 바닥에 세워서 쓰세요.<br/>카드전용 + 스탠드는 <b>월 45,100원(부가세 포함)</b>입니다.</p>
+<p class="plus">+5,500<i>원 / 월 · 부가세 포함</i></p>
+</div>
+</div>
+<p class="small-note">카드전용 월 39,600원 + 스탠드 월 5,500원 = 월 45,100원 (모두 부가세 포함)<br/>스탠드 추가 요금: 공급가액 5,000원 + 부가세 500원<br/>스탠드 일시불 금액은 상담 때 안내해 드립니다.</p>
+</section>
+<!-- 3. 도입비 0원 -->
+<section class="blk tint" id="zero">
+<span class="badge g">도입비 0원</span>
+<h2 class="h">기기값 말고는<br/><em>따로 받지 않습니다</em></h2>
+<p class="desc">설치하러 갈 때도, 프로그램을 바꿀 때도<br/>추가 비용이 없습니다.</p>
+<div class="receipt">
+<div class="stamp">도입비<br/>0원</div>
+<div class="r-head">
+<div class="r-brand">DAIN I&amp;C</div>
+<h3>도입 혜택 영수증</h3>
+<div class="r-date" id="today">발행일</div>
+</div>
+<div class="r-body">
+<div class="r-line"><span>설치비·배송비</span><span class="rt">무상</span><span class="dots"></span><span class="price">0원</span></div>
+<div class="r-line"><span>출장비</span><span class="rt">무상</span><span class="dots"></span><span class="price">0원</span></div>
+<div class="r-line"><span>라이선스 발급비</span><span class="rt">무상</span><span class="dots"></span><span class="price">0원</span></div>
+<div class="r-line"><span>프로그램비·프로그램 변경</span><span class="rt">무상</span><span class="dots"></span><span class="price">0원</span></div>
+<div class="r-line"><span>관리비</span><span class="rt">면제</span><span class="dots"></span><span class="price">0원</span></div>
+<p class="r-sub">(키오스크 구매 없이 프로그램만 설치 요청 시 관리비 월 11,000원 발생)</p>
+<div class="r-line"><span>토스프론트 + 카드단말기</span><span class="rt">기본 제공</span><span class="dots"></span><span class="price">0원</span></div>
+<p class="r-sub">(해지 시 토스프론트는 택배로 반납 · 매장환경에 따라 제공이 불가할 수 있습니다)</p>
+</div>
+<div class="r-total">
+<div class="tl">초기 도입비 합계<small>키오스크 기기 금액(할부·일시불)은 별도</small></div>
+<div class="tp">0원</div>
+</div>
+</div>
+<p class="small-note">신품 키오스크 기준이며, 중고 구매 시 적용 범위는 상담 때 안내해 드립니다.</p>
+</section>
+<!-- 4. 알리·위챗 -->
+<section class="blk" id="globalpay">
+<p class="pre">외국인 손님이 늘어난 매장이라면</p>
+<h2 class="h"><span class="ali">알리페이</span>·<span class="wc">위챗페이</span><br/>키오스크에서 바로 결제</h2>
+<p class="desc">손님은 결제 수단만 고르고 QR을 보여주면 끝.<br/>POS·카드단말기 도입도 같이 상담해 드립니다.</p>
+<div class="paybox">
+<p class="t">결제 방법 선택</p>
+<div class="pm"><i style="background:var(--ali)">支</i><div><b>Alipay</b><small>알리페이 QR 결제</small></div></div>
+<div class="pm"><i style="background:var(--wechat)">✓</i><div><b>WeChat Pay</b><small>위챗페이 QR 결제</small></div></div>
+<div class="pm"><i style="background:var(--ink)">₩</i><div><b>카드 · 현금</b><small>국내 결제도 그대로</small></div></div>
+</div>
+<div class="two">
+<div><b>카드 없는 관광객도<br/>그냥 보내지 않게</b><span>스마트폰 QR로 결제</span></div>
+<div><b>정산은<br/>원화로</b><span>손님은 자국 앱으로 결제</span></div>
+</div>
+</section>
+<!-- 5. 단말기 -->
+<section class="blk gray">
+<span class="badge">다인아이앤씨만의 혜택</span>
+<h2 class="h">카드단말기에<br/><em>토스프론트까지</em> 기본 제공</h2>
+<p class="desc">단말기 하나만 드리지 않습니다.</p>
+<div class="terms">
+<figure class="t1"><img alt="카드단말기" src="assets/image-b498223d15c6131f.webp"/><figcaption>카드단말기</figcaption></figure>
+<span class="pl">+</span>
+<figure class="t2"><img alt="토스프론트" src="assets/image-10f3ed3a6ab01303.webp"/><figcaption>토스프론트</figcaption></figure>
+</div>
+<p class="small-note">매장환경에 따라 제공이 불가할 수 있습니다.</p>
+</section>
+<!-- 6. 중고 -->
+<section class="blk tint" id="used">
+<p class="pre">신품 예산이 부담된다면</p>
+<h2 class="h">중고 키오스크도<br/>6개월 보증해 드립니다</h2>
+<div class="uses">
+<div><span class="n">6개월</span><p><b>무상 보증</b><span>중고도 구매일로부터 6개월간 보증합니다.</span></p></div>
+<div><span class="n">재고</span><p><b>여러 모델 보유</b><span>화면 크기, 결제 방식별로 골라보세요.</span></p></div>
+<div><span class="n">세팅</span><p><b>프로그램 설치까지</b><span>설치와 초기 설정을 마쳐서 드립니다.</span></p></div>
+</div>
+<a class="btn green" href="https://daininc.channel.io/home" style="margin-top:22px">중고 재고 사진 받아보기</a>
+<p class="small-note">중고는 재고와 상태에 따라 가격이 다르며, 재고는 수시로 바뀝니다.</p>
+</section>
+<!-- 7. 업종 -->
+<section class="blk">
+<h2 class="h">이런 매장에서<br/>많이 쓰고 있어요</h2>
+<div class="stores">
+<div>🍦 무인아이스크림</div><div>☕ 무인카페</div><div>🏪 무인편의점</div>
+<div>🥐 베이커리</div><div>✏️ 무인문구점</div><div>🍜 무인분식점</div>
+<div>🥬 과일·채소</div><div>🐾 펫샵</div><div>🧳 관광지 매장</div><div>➕ 그 외 무인매장</div>
+</div>
+</section>
+<!-- 8. 절차 -->
+<section class="blk gray">
+<span class="badge">도입 절차</span>
+<h2 class="h">문의부터 설치까지<br/>이렇게 진행돼요</h2>
+<div class="steps">
+<div class="step"><span class="no">1</span><div><b>사양 알려주기</b><p>현금 사용 여부, 해외 간편결제 필요 여부, 예산을 채팅이나 전화로 알려주세요.</p></div></div>
+<div class="step"><span class="no">2</span><div><b>견적·재고 안내</b><p>할부·일시불 견적과 중고 재고를 사진과 함께 보내드립니다.</p></div></div>
+<div class="step"><span class="no">3</span><div><b>결제 방식과 일정 결정</b><p>할부·일시불 중 고르시면 설치 날짜를 잡습니다.</p></div></div>
+<div class="step"><span class="no">4</span><div><b>배송 · 설치 · 세팅</b><p>출장비 없이 설치와 프로그램 세팅을 마치고 사용법을 알려드립니다.</p></div></div>
+</div>
+</section>
+<!-- 9. 마지막 CTA -->
+<section class="final">
+<h2 class="h">지금 바로 문의하세요</h2>
+<p class="desc">매장에 맞는 모델과 결제 방식으로<br/>견적을 보내드립니다.</p>
+<div class="final-btns">
+<a class="chat" href="https://daininc.channel.io/home">채팅으로 견적 받기</a>
+<a href="tel:15995076">대표 문의<i></i>1599-5076</a>
+<a href="tel:01086948910">영업 직통<i></i>010-8694-8910</a>
+</div>
+</section>
+</main>
+<footer class="biz">
+<b>다인아이앤씨</b> · 대표자 박윤범 · 사업자등록번호 521-85-02666<br/>
+  경기도 성남시 중원구 광명로 377 신구대학 창업관 502호<br/>
+  대표번호 1599-5076 · 영업담당 010-8694-8910
+</footer>
+<nav class="bar">
+<a class="b1" href="https://daininc.channel.io/home">채팅으로 견적 받기</a>
+<a class="b2" href="tel:15995076">전화하기</a>
+</nav>
+<script>
+(function(){var d=new Date(),el=document.getElementById('today');
+if(el)el.textContent='발행일 '+d.getFullYear()+'.'+String(d.getMonth()+1).padStart(2,'0')+'.'+String(d.getDate()).padStart(2,'0');})();
+</script>
+</body>
+</html>
